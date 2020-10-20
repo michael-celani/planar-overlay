@@ -1,12 +1,12 @@
-a[href*="c1.scryfall.com"] {
+a[href^="https://c1.scryfall.com/"] {
   text-decoration-style: dashed;
 }
 
-a[href*="c1.scryfall.com"]:hover {
+a[href^="https://c1.scryfall.com/"]:hover {
   color: aliceblue;
 }
 
-a[href*="c1.scryfall.com"]:after {
+a[href^="https://c1.scryfall.com/"]:after {
  content: var(--link);
  scale: 50%;
  opacity: 0;
@@ -22,6 +22,6 @@ a[href*="c1.scryfall.com"]:after {
  transform-origin: top left;
 }
 
-a[href*="c1.scryfall.com"]:hover::after {
+a[href^="https://c1.scryfall.com/"]:hover::after {
  opacity: 1;
 }
