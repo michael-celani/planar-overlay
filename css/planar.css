@@ -11,11 +11,11 @@ a[href^="https://c1.scryfall.com/"]:after {
  scale: 50%;
  opacity: 0;
  display: block;
- position: absolute;
- padding-top: var(--top);
- padding-left: var(--left);
- margin-top: -5px;
- margin-left: 5px;
+ position: fixed;
+ top: var(--top);
+ left: var(--left);
+ margin-top: 10px;
+ margin-left: 10px;
  z-index: 100;
  pointer-events: none;
  transition: opacity 0.15s ease-out var(--delay);

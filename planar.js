@@ -27,8 +27,8 @@ document.addEventListener("mousemove", function(e) {
         }
 
         var rect = e.target.getBoundingClientRect();
-        e.target.style.setProperty("--top", String(2 * (e.clientY - rect.y)) + "px");
-        e.target.style.setProperty("--left", String(2 * (e.clientX - rect.x)) + "px");
+        e.target.style.setProperty("--top", String(e.clientY) + "px");
+        e.target.style.setProperty("--left", String(e.clientX)+ "px");
     }
 );
 
