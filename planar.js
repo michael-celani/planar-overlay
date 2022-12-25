@@ -1,5 +1,5 @@
 function testNode(targ) {
-    return (targ && targ.nodeName === "A" && targ.href.startsWith('https://c1.scryfall.com/'))
+    return (targ && targ.nodeName === "A" && targ.href.startsWith('https://cards.scryfall.io/'))
 }
 
 document.addEventListener("mouseout", function(e) {

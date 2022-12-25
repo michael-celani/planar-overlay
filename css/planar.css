@@ -1,12 +1,12 @@
-a[href^="https://c1.scryfall.com/"] {
+a[href^="https://cards.scryfall.io/"] {
   text-decoration-style: dashed;
 }
 
-a[href^="https://c1.scryfall.com/"]:hover {
+a[href^="https://cards.scryfall.io/"]:hover {
   color: aliceblue;
 }
 
-a[href^="https://c1.scryfall.com/"]:after {
+a[href^="https://cards.scryfall.io/"]:after {
  content: var(--link);
  scale: 50%;
  opacity: 0;
@@ -22,6 +22,6 @@ a[href^="https://c1.scryfall.com/"]:after {
  transform-origin: top left;
 }
 
-a[href^="https://c1.scryfall.com/"]:hover::after {
+a[href^="https://cards.scryfall.io/"]:hover::after {
  opacity: 1;
 }
